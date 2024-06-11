@@ -1,0 +1,86 @@
+/** this is the CSS for header **/
+header {
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+header > div {
+    flex-grow: 1;
+    height: 100%;
+}
+
+header > div > a > img {
+    height: 100%;
+    width: auto;
+}
+
+nav > menu {
+    list-style-type: none;
+}
+
+nav > menu > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+/**this is the CSS for main**/
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+main > div {
+    background-color: white;
+    width: 1047px;
+    height: 605px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+main > div > h1 {
+    text-align: center;
+}
+
+main > div > form > div {
+    margin: 0px 0px 40px 0px;
+}
+
+main > div > form > div + div + div + div + div + div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div > form > div + div + div + div + div + div > input {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+main > div > form > div > span {
+    font-size: 40px;
+    margin: 0px 45px 0px 0px;
+}
+
+main > div > form > div > label {
+    margin: 0px 40px 0px 0px;
+}
+
+/**this is the CSS for Footer **/
+footer {
+    background: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: white;
+}
